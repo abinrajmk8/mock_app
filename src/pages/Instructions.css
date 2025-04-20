@@ -1,0 +1,82 @@
+.mock-test-container {
+    padding: 25px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .instruction-container {
+    width: 100%;
+    max-width: 1400px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .instruction-image {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .instruction-img {
+    width: 100%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .btn-start {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .btn-start:hover {
+    background-color: #303f9f;
+  }
+  
+  @media (max-width: 768px) {
+    .instruction-container {
+      padding: 15px;
+    }
+  
+    .instruction-img {
+      max-height: 70vh;
+    }
+  
+    .btn-start {
+      font-size : 1.0rem;
+      max-width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .instruction-img {
+      max-height: 60vh;
+    }
+  
+    .btn-start {
+      font-size : 0.9rem;
+      max-width: 180px;
+    }
+  }
